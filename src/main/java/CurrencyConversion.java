@@ -54,7 +54,7 @@ public class CurrencyConversion {
         }
     }
 
-    private static Map<String, String> currencySymbols() {
+    public static Map<String, String> currencySymbols() {
         HttpClient httpclient = new DefaultHttpClient();
         HttpGet httpget = new HttpGet("http://temporary");
         try {
